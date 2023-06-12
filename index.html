@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOSURE HANDSON</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+
+<h1 class="top">CLOSURE HANDSON</h1>
+<h3>Q1. FIND OUT THE OUTPUT...</h3>
+
+<h4>ANS1.  <br>
+         1 <br>
+           2   <br>
+           3   <br>
+           4    <br>
+</h4>
+
+<hr>
+<br>
+
+<h3>Q2. FIND THE RESULT...</h3>
+
+<h4>ANS2. <br>
+     1<br>
+     0<br>
+
+
+</h4>
+<hr>
+<br>
+
+
+<h3>Q3. FIND IT OUT...</h3>
+<h4>ANS3. <br>
+        3<br>
+        3<br>
+        3<br>
+       </h4>
+<hr>
+<br>
+
+<h3>Q4. Write a code to calculate area of a rectangle using inner function. In this case outer function should accept parameter length and inner function should accept parameter breadth.</h3>
+
+<h4>ANS4. function calculateRectangleArea(length) {
+    function innerFunction(breadth) {
+      return length * breadth;
+    }
+  
+    return innerFunction;
+  }
+  
+  // Usage// 
+  const rectangleArea = calculateRectangleArea(9); // Outer function is called with the length parameter
+  const area = rectangleArea(15); // Inner function is called with the breadth parameter
+  console.log(area);
+    </h4>
+ 
+    <h4>ANS4.   <br>
+        AREA= 135 
+
+    </h4>
+
+<hr>
+<br>
+
+<h3>Q5. Write a code to calculate area of a rectangle using inner function. In this case outer function should accept parameter length and inner function should accept parameter breadth. </h3>
+ <h4>ANS5.  <br>
+       1  <br>
+      2   <br>
+      3    <br>
+    </h4>
+    <hr>
+    <br>
+
+
+<h3>Q6. FIND OUTPUT... </h3>
+<h4>ANS6. 
+     12<br>
+    </h4>
+<hr>
+<br>
+
+<h3>Q7. FIND THE OUTPUT....</h3>
+<h4>ANS7. 12<br>
+</h4>
+
+
+<hr>
+<br>
+
+<h3>Q8. FIND THE RESULT ....</h3>
+<h4>ANS8.   <br>
+
+    outerArg = 123<br>
+    innerArg = 456<br>
+    outerVar = a<br>
+    innerVar = b<br>
+    globalVar = xyz<br>
+    
+</h4>
+
+
+<script src="./index.js"></script>
+</body>
+</html>
